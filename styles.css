@@ -1,0 +1,59 @@
+body {
+      margin: 0;
+      background-color: #F27405;
+    }
+    .header-container {
+      font-family: 'Bangers', cursive;
+      width: 100%;
+      display: inline-flex;
+      justify-content: center;
+      font-size: 30px;
+      background-color: rgba(75, 80, 89, 0.089);
+    }
+    .header-container a {
+      text-decoration: none;
+      color: white;
+      margin: 5px;
+      padding: 1px;
+    }
+    .header-container a h1{
+      padding: 1px;
+      margin: 1px;
+    }
+
+    .wrap-container{
+      width: 99vw;
+      height: auto;
+      background-color: #F27405;
+    }
+    .scrollmagic-pin-spacer{
+      padding: 0;
+    }
+    #container {
+      width: 100%;
+      height: 600px;
+      overflow: hidden;
+      padding: 0;
+      display: flex;
+      align-content: center;
+    }
+    .pnl {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      text-align: center;
+    }
+    .first{
+      background-color: #F2CB05;
+    }
+    .secondary{
+      background-color: #74BF04;
+    }
+    .third{
+      background-color: #0455BF;
+    }
+    .fourt{
+      background-image: linear-gradient(to top right, #F2CB05,#74BF04, #0455BF );
+    }
+    
+  
